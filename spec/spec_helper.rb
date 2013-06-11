@@ -6,7 +6,7 @@ require 'rspec'
 require 'rack/test'
 require 'webmock/rspec'
 require 'omniauth'
-require 'omniauth-github'
+require 'omniauth-p2pu'
 
 RSpec.configure do |config|
   config.include WebMock::API
