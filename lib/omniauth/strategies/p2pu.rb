@@ -4,9 +4,9 @@ module OmniAuth
   module Strategies
     class P2PU < OmniAuth::Strategies::OAuth2
       option :client_options, {
-        :site => 'https://api.github.com',
-        :authorize_url => 'https://github.com/login/oauth/authorize',
-        :token_url => 'https://github.com/login/oauth/access_token'
+        :site => 'https://p2pu.org/oauth',
+        :authorize_url => 'https://p2pu.org/oauth/authorize',
+        :token_url => 'https://p2pu.org/oauth/token'
       }
 
       def request_phase
@@ -71,4 +71,4 @@ module OmniAuth
   end
 end
 
-OmniAuth.config.add_camelization 'github', 'GitHub'
+OmniAuth.config.add_camelization 'p2pu', 'P2PU'
