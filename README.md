@@ -1,4 +1,6 @@
-# OmniAuth GitHub
+# OmniAuth P2PU
+
+Fork of the github OAuth2 branch, for use with p2pu OAuth
 
 This is the official OmniAuth strategy for authenticating to GitHub. To
 use it, you'll need to sign up for an OAuth2 Application ID and Secret
